@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.saidebar{
+    color:#b2b2b2 ;
+    background-color:#e4e4e4;
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 16px;
+    border-color: 2px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#ubder-line{
+    text-decoration: none;
+}
+
+#maine{
+    width: 70%;
+    float: left;
+}
+
+
+.top{
+    width: 100%;
+    background-color: #EEEEEE;
+    float: left;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    margin:20px;
+    border-radius: 7px;
+}
+.first{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.second{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.third{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.fourth{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.fifth{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.sixth{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.button{
+    padding: 7px;
+    margin-top: 12px;
+    border-radius: 6px;
+    
+
+}
+.active{
+    background-color: rgb(9, 74, 170);
+    color: white;
+
+}
+.link{
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: skyblue;
+    color: #EEEEEE;
+}
+
+.button:active{
+    background-color: black;
+    color: aqua;
+}

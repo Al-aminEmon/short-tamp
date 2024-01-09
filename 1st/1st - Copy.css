@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color:#04aa6d;
+    color: #f1f1f1;
+    padding: 20px;
+    border-radius:5px;
+}
+
+.nav-side{
+    width: 20%;
+    margin-top: 20px;
+    float: left;
+}
+
+.item > button{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 8px;    
+}
+
+.item > button:hover{
+    background-color: black;
+    color: white;
+}
+
+.item > button:active{
+    background-color: #3498db;
+    color: #f1f1f1;
+}
+
+.active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.content{
+    width: 56%;
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.link{
+    color: black;
+}
+
+.content-heading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.side-bar{
+    width: 18%;
+    float: left;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #3498db;
+    color: white ;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.last{
+ 
+    text-align: center;
+    padding: 20px;
+    /* border: 1px solid rgb(117, 117, 117); */
+    margin: 20px;
+    font-size: 20px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-side{
+        width: 100%;
+        /* padding: 0 10px; */
+    }
+    
+    .content{
+    width: 100%;
+    padding: 0 20px;
+    }
+    .side-bar{
+        width: 100%;
+        margin: 20px;
+    }
+
+
+
+} 

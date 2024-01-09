@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+.maine-header{
+    background-color:#04aa6d;
+    padding: 20px;
+    color: white;
+}
+.nav-saide{
+    width: 20%;
+    float:left;
+    margin-top: 5px;
+}
+.nav-item>button{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 7px;
+}
+.active{
+    background-color:#04aa6d;
+    color: white;
+}
+.content{
+    width: 50%;
+    float:left;
+    margin-top 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.content-heading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.side-bar{ 
+    background-color:#32a4e7;
+    color: white;
+    width: 18%;
+    float: left;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 80px;
+    margin: 10px;
+}
+.fineshed{
+    border: 1 px solid #d4d4d4;
+    background-color:#f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 10;
+    line-height: 14 px;
+}
